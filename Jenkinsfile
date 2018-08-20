@@ -9,7 +9,7 @@ sh ’ls’
 }
 post {
 always {
-archiveArtifacts artefacts: ’tar cfz website.tgz _less.github.io’,
+archiveArtifacts artifacts: ’tar cfz website.tgz _less.github.io’,
 fingerprint: true
 }
 }
