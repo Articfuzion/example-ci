@@ -10,7 +10,7 @@ steps {
 }
   stage('Archive'){
     steps{
-      sh 'tar cfz website.tgz _less.github.io'
+      sh 'tar czf website.tgz _less.github.io'
     }
   }
   
