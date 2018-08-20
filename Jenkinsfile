@@ -3,7 +3,6 @@ agent any
 stages {
 stage(’Build’) {
 steps {
-sh ’ls’
   sh 'npm install'
   sh 'npm install grunt-cli'
   sh './node_modules/grunt-cli/bin/grunt'
