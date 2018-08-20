@@ -17,8 +17,7 @@ steps {
 }
 post {
 always {
-archiveArtifacts artifacts: ’website.tgz’,
-fingerprint: true
+archiveArtifacts artifacts: ’website.tgz’, fingerprint: true
 }
 }
 }
